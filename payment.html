@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+
+     <!-- My css -->
+   <link rel="stylesheet" href="frontend/styles/payment.css">
+
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,500;1,700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+   
+
+    <title>Payment</title>
+  </head>
+  <body>
+  
+  <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <a href="#">Ringkasan Pesanan</a>
+        </nav>
+    </header>
+  <!-- Tutup Header -->
+
+  <!-- Payment -->
+  <div class="container">
+    <h1 style="margin: 10px;"> Payment</h1>
+    <form class="" action="index.html" method="post"></form>
+    <input required  class="input-form laf" type="text" name="" value="Khairun Nisak" placeholder="Nama">
+
+    <input required  class="input-form laf" type="number" name="" value="085365673459" placeholder="085365673459">
+
+    <input required  class="input-form laf" type="number" name="" value="2" placeholder="Jumlah" ng-model="Jumlah">
+
+    <input required  class="input-form laf" type="number" name="" value="11.750" ng-model="Harga">
+
+    <input required  class="input-form laf" type="number" name="" value="23.500" placeholder="Hasil" ng-model="Hasil">
+    <textarea class="input-form" cols="5" rows="5" name="comment" placeholder="Catatan" required></textarea>
+    <div class="quantity-select">
+      <p>Nomor Rekening<br> Atas Nama: Rifanyhijab </p>
+      <input type="name" value="BCA: 520304312">
+      <input type="name" value="BRI: 77521001726">
+      <input type="name" value="MANDIRI:346790874">
+      <input type="name" value="BNI:567738929">
+    </div>
+
+    <div style="overflow-x: auto;">
+      <label>Pilih Metode Pembayaran</label>
+      <table border="0" cellpadding="10">
+      <tr>
+        <th><input type="checkbox" value=""> <img src="frontend/img/cod.png" width="60px" height="30px"></th>
+        <th><input type="checkbox" value=""> <img src="frontend/img/bank bca.png" width="60px" height="30px"></th>
+        <th><input type="checkbox" value=""> <img src="frontend/img/bank bri.png" width="60px" height="30px"></th>
+        <th><input type="checkbox" value=""> <img src="frontend/img/bank mandiri.jpg" width="60px" height="30px"></th>
+        <th><input type="checkbox" value=""> <img src="frontend/img/bnak bni.png" width="60px" height="30px"></th>
+      </tr>
+    </table>
+    </div>
+
+    
+  </div>
+
+  <a href="order.html"><button class="btn-form-pay">Pay</button></a>
+  <a href="booking.html"><button class="btn-form-change" id="myBtn">Cancel</button></a>
+
+  <!-- Tutup Payment -->
+    
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+ 
+ 
+  </body>
+</html>

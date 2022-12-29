@@ -1,0 +1,287 @@
+body{
+    margin: 0;
+    color: rgb(20, 16, 16);
+    font-family: 'Poppins';
+    background-color: #8DA892;
+}
+
+
+header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #ffffff;
+    padding: 2rem 5%;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: 'Poppins';
+    font-size: 30px;
+}
+
+
+
+.navbar a{
+   
+    color: #666;    
+}
+
+
+.navbar a:hover {
+    color: #8DA892;
+    outline: none;
+    text-transform: capitalize;
+}
+/* Tutup Header */
+
+
+/* Page Booking */
+.container{
+    background: #a9ccaf;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+}
+
+input:invalid{
+    background: #8DA892;
+    border: 1px solid black;
+}
+
+input:valid{
+    background: rgb(236, 233, 233);
+}
+
+.input-form {
+    width: 95%;
+    background: #f1e9e9;
+    margin: 0.9%;
+    padding: 10px;
+    border: black;
+    border-radius: 20px;
+}
+
+
+
+.input-form-number{
+    width: 12%;
+    background: #f9f9f9;
+    margin: 1%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-form-value{
+    width: 57.5%;
+    background: #f9f9f9;
+    margin: 1%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-form-change{
+  
+    background:#8DA892;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 10px;
+    width: 15%;
+    float: left;
+    margin-left: 400px;
+    cursor: pointer;
+    margin-top: 700px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.btn-form-pay{
+  
+    background: #EBC056;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 10px;
+    width: 15%;
+    float: right;
+    margin-right: 400px;
+    cursor: pointer;
+    margin-top: 700px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.btn-form-pay:hover{
+    background:bisque;
+
+}
+.btn-form-change:hover{
+    background: bisque;
+
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.product{
+    width: 90%;
+    max-width: 750px;
+    display: flex;
+}
+.gallery{
+    flex-basis: 47%;
+    transform: scale(1.08);
+    position: relative;
+  
+}
+.gallery img{
+    width: -100%;
+    margin-right: 350px;
+    align-items: center;
+    margin-right: 50px;
+    height: 400px;
+    padding-top: 80px;
+}
+.detail{
+    flex-basis: 53%;
+   
+    padding: 40px;
+    padding-left: 60px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #777;
+}
+.detail h1{
+    color: #333;
+    font-size: 30px;
+    width: 100%;
+    margin-right: 300px;
+}
+.detail h2{
+    color: #555;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.size-select{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.size-select p{
+    width: 70px;
+
+}
+.size-select input:checked + span{
+    color: blue;
+    font-weight: 600;
+
+}.size-select input{
+    display: none;
+}
+.size-select span{
+    padding: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.color-select{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.color-select p{
+    width: 75px;
+
+}
+.color-select span{
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+    border-radius: 50px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.color-1{
+    background: rgb(83, 44, 44);
+}
+.color-2{
+    background: black;
+}
+.color-3{
+    background: rgb(204, 146, 180);
+}
+.color-4{
+    background: rgb(168, 166, 13);
+}
+.color-5{
+    background: rgb(4, 38, 54);
+}
+
+.color-select input{
+    display: none;
+}
+.color-select input:checked + span{
+    transform: scale(0.7);
+    box-shadow: 0 0 0 4px #ffffff, 0 0 0 6px #000;
+}
+.quantity-select {
+    display: flex;
+    align-items: center;
+    margion-top: 20px;
+}
+.quantity-select p{
+    width: 74px;
+}
+.quantity-select input{
+    background: #eee;
+    border: 0;
+    outline: 0;
+    padding: 2px 2px 2px 15px;
+    width: 50px;
+    border-radius: 12px;
+}
+form button{
+    background:#67856d;
+    color: rgb(233, 227, 227);
+    font-size: 17px;
+    width: 50%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    margin-top: 50px;
+    box-shadow: 0 10px 10px rgba(76, 75, 80, 0.25);
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    padding: 14px;
+    flex-wrap: wrap;
+    margin-left: 100px;
+
+   
+}
+
+form button:hover{
+    background:rgb(233, 156, 192);
+
+}
+
+
+/* Tutup Page Booking */
